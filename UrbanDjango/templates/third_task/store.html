@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Магазин</h2>
+
+    <ul>
+        {% for item in items %}
+            <li>{{ item.name }}
+                <button>Купить</button>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <a href="{% url 'main' %}">На главную</a>
+{% endblock %}
