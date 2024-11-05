@@ -43,3 +43,5 @@ def sign_up_by_html(request):
     return render(request, 'fifth_task/registration_page.html', info)
 
 
+
+

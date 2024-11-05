@@ -7,3 +7,5 @@ class UserRegister(forms.Form):
     age = forms.CharField(max_length=3, label='Введите свой возраст')
 
 
+
+
