@@ -1,3 +1,9 @@
+
+"""
+TEST
+"""
+
+
 from django.shortcuts import render
 from .forms import UserRegister
 
