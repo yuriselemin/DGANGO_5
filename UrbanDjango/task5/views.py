@@ -41,3 +41,5 @@ def sign_up_by_html(request):
             info['error'] = 'Неверные данные для регистрации.'
 
     return render(request, 'fifth_task/registration_page.html', info)
+
+
